@@ -14,11 +14,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
-import com.javainuse.model.UserDTO;
 import com.jwt.config.JwtTokenUtil;
+import com.jwt.model.JwtRequest;
+import com.jwt.model.JwtResponse;
+import com.jwt.model.UserDTO;
 import com.jwt.service.JwtUserDetailsService;
 
 @RestController
